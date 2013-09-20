@@ -1,5 +1,8 @@
+mod "nanliu/staging"
 mod "puppetlabs/firewall"
 mod "puppetlabs/inifile"
+mod "puppetlabs/java"
 mod "puppetlabs/stdlib"
 mod "seteam/profile"
 mod "seteam/role"
+mod "seteam/tomcat"
