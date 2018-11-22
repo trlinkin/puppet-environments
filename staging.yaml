@@ -1,7 +1,7 @@
 ---
 environment:
-  source: git://github.com/puppetlabs/control-repo.git
-  version: 1.0.0
+  source: git://github.com/reidmv/control-repo.git
+  version: master
 
 modules:
   puppetlabs/stdlib: 4.16.0
