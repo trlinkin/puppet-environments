@@ -1,5 +1,5 @@
 ---
-environment:
+basedir:
   source: git://github.com/reidmv/control-repo.git
   ref: master
 
