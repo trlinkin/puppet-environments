@@ -1,13 +1,15 @@
 ---
 base:
-  source: git://github.com/reidmv/control-repo.git
-  ref: master
+  source: 'git://github.com/reidmv/control-repo.git'
+  ref: 'master'
 
 modules:
-  puppetlabs/stdlib: 4.16.0
-
+  puppetlabs/stdlib: '4.16.0'
+  lwf/remote_file: '1.1.0'
   puppetlabs/apache:
     git: 'git://github.com/puppetlabs/puppetlabs-apache.git'
     tag: '3.4.0'
+  puppetlabs/puppet_agent:
+    git: 'git://github.com/puppetlabs/puppetlabs-puppet_agent.git'
+    ref: '1.7.0'
 
-  lwf/remote_file: 1.1.0
